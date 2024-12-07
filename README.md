@@ -11,6 +11,7 @@ A basic chat app built with Next.js, Socket.io, TypeScript, Zustand, and Tailwin
 - Clean UI components with shadcn-ui
 
 ## Directory Structure
+
 ```
 src/
 ├──app/
@@ -37,44 +38,54 @@ src/
 ## Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/git-ashwinpandey/socket-message.git
 cd socket-message
 ```
 
 2. Install Dependencies:
+
+```
 npm install
-# or
+or
 yarn install
+```
 
 3. Run the server:
+
+```
 npm run dev
-# or
+or
 ts-node server.ts
+```
 
 ## Dependencies
+```
 {
-    "@radix-ui/react-slot": "^1.1.0",
-    "@shadcn/ui": "^0.0.4",
-    "@types/express": "^5.0.0",
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "express": "^4.21.2",
-    "lucide-react": "^0.468.0",
-    "next": "14.2.20",
-    "react": "^18",
-    "react-dom": "^18",
-    "socket.io": "^4.8.1",
-    "socket.io-client": "^4.8.1",
-    "tailwind-merge": "^2.5.5",
-    "tailwindcss-animate": "^1.0.7",
-    "ts-node": "^10.9.2",
-    "zustand": "^5.0.2"
-  }
+"@radix-ui/react-slot": "^1.1.0",
+"@shadcn/ui": "^0.0.4",
+"@types/express": "^5.0.0",
+"class-variance-authority": "^0.7.1",
+"clsx": "^2.1.1",
+"express": "^4.21.2",
+"lucide-react": "^0.468.0",
+"next": "14.2.20",
+"react": "^18",
+"react-dom": "^18",
+"socket.io": "^4.8.1",
+"socket.io-client": "^4.8.1",
+"tailwind-merge": "^2.5.5",
+"tailwindcss-animate": "^1.0.7",
+"ts-node": "^10.9.2",
+"zustand": "^5.0.2"
+}
+```
 
 
+## Getting Started
 
-Open [http://localhost:3000](http://localhost:3030) with your browser to see the result.
+Open [http://localhost:3030](http://localhost:3030) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
