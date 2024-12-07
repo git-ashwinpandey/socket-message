@@ -1,20 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Real-time Chat Application
 
-## Getting Started
+A basic chat app built with Next.js, Socket.io, TypeScript, Zustand, and Tailwind CSS/shadcn-ui.
 
-First, run the development server:
+## Features
 
+- Real-time messaging using Socket.io
+- State management with Zustand
+- Different message styles for sender and receiver
+- Responsive design with Tailwind CSS
+- Clean UI components with shadcn-ui
+
+## Directory Structure
+
+src/
+├──app/
+|  └── page.tsx
+|  └── layout.tsx
+├──components/
+|  └──ui/
+|     └── button.tsx
+|     └── input.tsx
+|  └── Chat.tsx
+├── lib/
+│   └── store/
+│       └── useStore.ts
+|   └── utils.ts
+├──server/
+|  └── server.ts
+
+## Prerequisites
+
+- Node.js (v14+ recommended)
+- npm or yarn
+
+## Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/git-ashwinpandey/socket-message.git
+cd socket-message
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install Dependencies:
+npm install
+# or
+yarn install
+
+3. Run the server:
+npm run dev
+# or
+ts-node server.ts
+
+## Dependencies
+{
+    "@radix-ui/react-slot": "^1.1.0",
+    "@shadcn/ui": "^0.0.4",
+    "@types/express": "^5.0.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "express": "^4.21.2",
+    "lucide-react": "^0.468.0",
+    "next": "14.2.20",
+    "react": "^18",
+    "react-dom": "^18",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "ts-node": "^10.9.2",
+    "zustand": "^5.0.2"
+  }
+
+
+
+Open [http://localhost:3000](http://localhost:3030) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
