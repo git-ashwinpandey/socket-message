@@ -11,7 +11,7 @@ A basic chat app built with Next.js, Socket.io, TypeScript, Zustand, and Tailwin
 - Clean UI components with shadcn-ui
 
 ## Directory Structure
-
+```
 src/
 ├──app/
 |  └── page.tsx
@@ -27,6 +27,7 @@ src/
 |   └── utils.ts
 ├──server/
 |  └── server.ts
+```
 
 ## Prerequisites
 
